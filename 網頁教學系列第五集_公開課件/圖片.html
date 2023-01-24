@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圖片</title>
+</head>
+<body>
+    <!-- 
+        導入圖片需要使用img標籤，而需要給他兩個參數，分別是src, alt(可給可不給)， 
+        src要給圖片的路徑，alt是如果圖片沒顯示成功會顯示的文字
+        也可以添加width和height調整圖片大小，要給的值是數字，單位一般會用px(像素)
+    -->
+    <!-- 
+        圖片路徑：
+        必須從目前資料夾出發，如果它在子資料夾，需要加一個/
+        範例：
+        我的圖片在我html檔案位置的image資料夾，所以我要這樣寫
+        image/圖片.jpg
+     -->
+
+    
+    <!-- 如果圖片在和html檔案同一層資料夾 -->
+    <img src="範例圖片.jpg" alt="我在圖片顯示失敗(有可能是路徑錯誤或其他原因)時出現" width="500px" height="500px">
+    <!-- 如果圖片在下一層資料夾(子資料夾) -->
+    <img src="image/範例圖片.jpg" alt="我在圖片顯示失敗(有可能是路徑錯誤)時出現" width="500px" height="500px">
+    <!-- 如果圖片路徑錯誤 -->
+    <img src="img/範例圖片.jpg" alt="我在圖片顯示失敗(有可能是路徑錯誤或其他原因)時出現" width="500px" height="500px">
+</body>
+</html>

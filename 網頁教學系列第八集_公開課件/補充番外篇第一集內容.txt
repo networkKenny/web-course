@@ -1,0 +1,30 @@
+1.a的額外補充(target, title)
+<a href="https://google.com" target="_blank" title="連結到google"></a>
+
+2.meta的額外補充(name, content...)
+meta的name參數決定meta標籤的類型，而content(內容)隨著name值的不同，也需要填寫不同的內容。
+
+<meta name="description" content="這是一個測試網站">
+<meta name="author" content"祐祐">
+<meta name="keywords" content="html, 教學, 測試網站, meta標籤">
+
+3.span標籤
+span標籤裡可以填寫任何內容，而span標籤並不會對該內容進行任何影響，常用在：
+
+<h1>我需要和別人<span>不一樣</span></h1>
+
+上方這一句雖然在未寫CSS的狀況下「不一樣」並不會和其他內容不一樣，可是我們通常會對此句下CSS。
+h1 span{
+    color: red;
+    background: black;
+}
+
+4.文字操作的補充
+
+<b></b>，在b標籤裡面的文字會是粗體
+<i></i>，在i標籤裡面的文字會是斜體
+
+5.fontawesome套件
+
+引入語法(請放在head裡面)
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />

@@ -1,0 +1,27 @@
+輸入標籤：input
+input需要填寫參數：type(如果需要連接後端可能需要name)
+input的有些屬性也可以加入placeholder
+type決定輸入屬性，可以是文字、檔案、日期...
+!請注意，input如果沒有連結後端，開發者也無法取得資料，關於前端與後端的差別，可以參考這篇文章：https://codingbeginner01.com/frontend-vs-backend-developers/
+
+常見的type值：
+ - text(純文字)
+ - date(日期)
+ - checkbox(勾選)
+ - email(電子郵件)
+ - file(檔案)`
+
+button：
+很簡單，只要做出button標籤就好了<button></button>，標籤裡面放按鈕想程現的文字
+按鈕也可以填type，分別是button, submit, reset, menu
+
+select(下拉式選單)：
+select標籤裡面放option(選項)，option標籤放選項的文字，這些的參數可以都不填，因為這是要連接後端或是javascript用的
+關於select可以參考：https://www.fooish.com/html/select-option-optgroup-tag.html
+
+textarea：
+內文輸入框，也可以加placeholder，rows和cols參數決定寬高
+
+如果需要傳送資料功能(搭配後端)，請將input放在form標籤裡面。form標籤的參數我們可以不填。但是如果需要連結後端或javascript需要填
+
+課件製作：祐祐

@@ -1,0 +1,5 @@
+寫網頁一定要有網頁編輯器，我最推薦的網頁編輯器是VS Code
+vs code是由microsoft所開發的網頁編輯器，不僅免費、支援windows和mac，而且還可以下載各種套件，加快編輯速度
+
+VS Code下載網址：https://code.visualstudio.com/
+我也推薦這款編輯器：https://www.sublimetext.com/download
