@@ -1,0 +1,22 @@
+顏色：
+    可以使用color設定，而color的值可以填
+        1. 文字類型，例如：red,yellow
+        2. rgb顏色編碼，例如rgb(0,0,0)
+        3. 16進位編碼，例如#cccccc
+背景顏色：
+    可以使用background-color或是background設定，而值可以填
+        1. 文字類型，例如：red,yellow
+        2. rgb顏色編碼，例如rgb(0,0,0)
+        3. 16進位編碼，例如#cccccc
+
+可以使用一些方法，使滑鼠經過時會改變該css樣式，例如：
+p{
+    color: black;
+}
+本來的文字顏色是黑色，但是如果再使用下方語句：
+p:hover{
+    color: red;
+}
+
+如果滑鼠滑過p元素，本來黑色的文字就會變成紅色。
+!hover方式可以適用於各種設定，也可以適用background或是之後學到的其他設定
